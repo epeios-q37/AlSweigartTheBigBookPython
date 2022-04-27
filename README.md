@@ -23,7 +23,7 @@ The content of this repository can be tried online: [![Online demo on Replit](ht
 !['Mancala' with GUI](https://q37.info/s/c4rcfh4c.png)
 
 
-The book from which the programs in this repository are based is available under [CC-BY-NC-SA](https://alsweigart.com/), as mentioned at <https://alsweigart.com/>.
+The book from which the programs in this repository are based is available under [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/), as mentioned at <https://alsweigart.com/>.
 
 The [*Atlas* toolkit](http://atlastk.org) used for the GUI and provided with this repository is released under [MIT license](http://q37.info/s/7f9gsms3).
 
