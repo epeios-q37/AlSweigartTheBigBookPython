@@ -147,12 +147,12 @@ def acSubmit(dom,id):
     changeTile(int(dom.getAttribute(id, "data-tile")), gameBoard, 0, 0)
     movesLeft -= 1
 
-  atlastk.broadcast_action("Display")
+  atlastk.broadcastAction("Display")
 
 
 def acNew(dom):
   newGame()
-  atlastk.broadcast_action("Display")
+  atlastk.broadcastAction("Display")
 
 
 CALLBACKS = {
@@ -209,7 +209,7 @@ entire board the same color/shape.
   </fieldset>
   <fieldset id="output"></fieldset>
   </fieldset>
-   <button style="display: flex;	margin: 5px auto 0px;" id="New" xdh:onevent="New">New game</button>
+   <button style="display: flex; margin: 5px auto 0px;" xdh:onevent="New">New game</button>
 </fieldset>
 """
 
